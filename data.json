@@ -1,0 +1,128 @@
+{
+    "manhattan": {
+      "population": 1628706,
+      "medianIncome": 85000,
+      "gentrificationIndex": 8.7,
+      "neighborhoods": [
+        {
+          "name": "Harlem",
+          "population": 116345,
+          "medianRent": 2700,
+          "gentrificationStage": "Late"
+        },
+        {
+          "name": "East Village",
+          "population": 64211,
+          "medianRent": 4000,
+          "gentrificationStage": "Mid"
+        },
+        {
+          "name": "Lower East Side",
+          "population": 79500,
+          "medianRent": 4200,
+          "gentrificationStage": "Late"
+        }
+      ]
+    },
+    "queens": {
+      "population": 2300000,
+      "medianIncome": 70000,
+      "gentrificationIndex": 7.8,
+      "neighborhoods": [
+        {
+          "name": "Astoria",
+          "population": 95144,
+          "medianRent": 3200,
+          "gentrificationStage": "Early"
+        },
+        {
+          "name": "Long Island City",
+          "population": 68321,
+          "medianRent": 3600,
+          "gentrificationStage": "Mid"
+        },
+        {
+          "name": "Jackson Heights",
+          "population": 114000,
+          "medianRent": 2500,
+          "gentrificationStage": "Early"
+        }
+      ]
+    },
+    "jerseycity": {
+      "population": 292449,
+      "medianIncome": 74000,
+      "gentrificationIndex": 8.0,
+      "neighborhoods": [
+        {
+          "name": "Downtown Jersey City",
+          "population": 54500,
+          "medianRent": 3200,
+          "gentrificationStage": "Late"
+        },
+        {
+          "name": "Journal Square",
+          "population": 26750,
+          "medianRent": 2500,
+          "gentrificationStage": "Mid"
+        },
+        {
+          "name": "The Heights",
+          "population": 39167,
+          "medianRent": 2700,
+          "gentrificationStage": "Mid"
+        }
+      ]
+    },
+    "bronx": {
+      "population": 1472654,
+      "medianIncome": 42000,
+      "gentrificationIndex": 6.5,
+      "neighborhoods": [
+        {
+          "name": "South Bronx",
+          "population": 162512,
+          "medianRent": 1800,
+          "gentrificationStage": "Early"
+        },
+        {
+          "name": "Fordham",
+          "population": 78000,
+          "medianRent": 1600,
+          "gentrificationStage": "Early"
+        },
+        {
+          "name": "Riverdale",
+          "population": 47936,
+          "medianRent": 2500,
+          "gentrificationStage": "Mid"
+        }
+      ]
+    },
+    "brooklyn": {
+      "population": 2582830,
+      "medianIncome": 62000,
+      "gentrificationIndex": 9.0,
+      "neighborhoods": [
+        {
+          "name": "Williamsburg",
+          "population": 78943,
+          "medianRent": 3600,
+          "gentrificationStage": "Early"
+        },
+        {
+          "name": "Park Slope",
+          "population": 63419,
+          "medianRent": 3500,
+          "gentrificationStage": "Late"
+        },
+        {
+          "name": "Bushwick",
+          "population": 85371,
+          "medianRent": 2800,
+          "gentrificationStage": "Mid"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,108 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e); /* Dark gradient background */
+    color: #e0e0e0; /* Light gray text color */
+    font-family: 'Roboto Mono', monospace; /* Monospace font for a technical feel */
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #222831; /* Darker nav background */
+    border-radius: 10px;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ff9933; /* Bright orange for links */
+    font-size: 1.2rem;
+}
+nav ul li a:hover {
+    color: #ff5e00; /* Darker orange on hover */
+}
+
+/* Container styling for main content */
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #212121; /* Dark background for content area */
+    border: 2px solid #66ff99; /* Neon green border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px #32ff7e, 0 0 20px #00ff44; /* Green neon glow effect */
+}
+
+/* Button styling */
+button.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff9933; /* Orange background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button.back-button:hover {
+    background-color: #ff5e00; /* Darker orange on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1b2f; /* Footer background */
+    color: #ffdd99; /* Soft orange text */
+    border-top: 2px solid #66ff99; /* Green neon border at the top */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+iframe {
+    width: 100%; /* Full width */
+    height: 50vh; /* Set height to 110% of the viewport height */
+    border: none; /* No border */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Prevent overflow */
+    margin: 20px 0; /* Add some margin around the viewer */
+}
+
+/* Basic container styling */
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #212121;
+    border: 2px solid #66ff99;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #32ff7e, 0 0 20px #00ff44;
+}
+
